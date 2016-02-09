@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div data-template="templates:include" data-template-path="templates/menu.html"/>
+    <div class="container-fluid">
+        <div class="col-md-12 top">
+            <div class="page-header">
+                <h1>About this app</h1>
+            </div>
+            <p>This application was generated automatically using the <a href="http://showcases.exist-db.org/exist/apps/tei-simple/index.html">TEI Processing Model App Generator</a>. Only the logo and background images
+        have been uploaded afterwards. Apart from this, no code has been added or modified.</p>
+            <p>The primary purpose of this app is to test the TEI Processing Model on a larger corpus of texts.
+        Instead of using an XSLT stylesheet or XQuery, all texts are rendered by interpreting processing model instructions
+        described in an ODD file. This saves us many lines of code (more than 2000 lines of XQuery in this example). All output
+        formats are defined by the same ODD!</p>
+            <p>Not much attention has been paid to search yet. It more or less uses the out of the box search features of eXistdb.</p>
+            <ul>
+                <li>
+                    <a href="http://showcases.exist-db.org/exist/apps/tei-simple/index.html">TEI Simple in XQuery Demo</a>
+                </li>
+                <li>
+                    <a href="https://github.com/wolfgangmm/tei-simple-pm">TEI Simple in XQuery</a> Code on github</li>
+                <li>Overview of <a href="https://github.com/TEIC/TEI-Simple">TEI Simple</a>
+                </li>
+            </ul>
+            <div class="alert alert-info">
+                <h4>Warning</h4>
+                <p>This application is actively developed and may break, get messed up or become slow while we're working on it.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>EEBO: Early English Books Online</h6>
+                    <p>Data: ⓒ Early English Books Online Text Creation Partnership. Texts are
+       available for reuse, according to the terms of <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+       Commons 0 1.0 Universal</a>
+                    </p>
+                    <p>Implementation: ⓒ eXistSolutions 2015/2016</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 poweredby">
+                    <a href="http://www.tei-c.org/" target="_blank">
+                        <img src="resources/images/powered-by-TEI.png"/>
+                    </a>
+                    <a href="http://exist-db.org/" target="_blank">
+                        <img src="resources/images/powered-by-whiteglass.svg" width="120"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>

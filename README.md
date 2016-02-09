@@ -5,3 +5,7 @@ This application was generated automatically using the [http://showcases.exist-d
 No texts are included in this repo. You can get the full corpus on github: https://github.com/textcreationpartnership/Texts.
 
 Once downloaded, upload the XML documents into collection /db/eebo/EEBO-data/. The app will pick them up there.
+
+## Demo
+
+http://showcases.exist-db.org/exist/apps/eebo/works/
